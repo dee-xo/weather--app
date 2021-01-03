@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/991de1cf16.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Enter a city"
+                class="form-control"
+                id="city-input"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-secondary"
+              />
+            </div>
+            <div class="col-3" id="current-location-button">
+              <input
+                type="submit"
+                value="Current"
+                class="form-control btn btn-secondary"
+              />
+            </div>
+          </div>
+        </form>
+        <span class="border-0">
+          <h1>
+            <i class="fas fa-map-marker-alt"></i>
+            <br />
+            <span id="city"></span>
+          </h1>
+        </span>
+
+        <div class="row">
+          <div class="col-12" id="date">
+            Enter City and/or Press "Search"</i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3"><i class="fas fa-cloud-sun"></i></div>
+          <div class="col-3">
+            <span class="temperature" id="temperature"></span>
+            <span class="units-c">
+              <a href="#" id="celsius-link">℃</a>
+            </span>
+            <span class="break">|</span>
+            <span class="units-f"><a href="#" id="fahrenheit-link">℉</a> </span>
+          </div>
+          <div class="col-4">
+            <ul id="left-wing">
+              <li>Description:</li>
+              <li>Humidity %:</li>
+              <li>Wind km/h:</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="right-wing">
+              <li id="description"></li>
+              <li id="humidity"></li>
+              <li id="wind"></li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <div class="row" id="temp-dates">
+          <div class="col-2 btn-group-vertical">
+            <button class="btn btn-secondary" type="button">
+              TUE
+              <hr />
+              🌨<br />2º/0º
+            </button>
+          </div>
+          <div class="col-2 btn-group-vertical">
+            <button class="btn btn-secondary" type="button">
+              WED
+              <hr />
+              🌤<br />3º/0º
+            </button>
+          </div>
+          <div class="col-2 btn-group-vertical">
+            <button class="btn btn-secondary" type="button">
+              THU
+              <hr />
+              🌤<br />3º/0º
+            </button>
+          </div>
+          <div class="col-2 btn-group-vertical">
+            <button class="btn btn-secondary" type="button">
+              FRI
+              <hr />
+              🌤<br />3º/1º
+            </button>
+          </div>
+          <div class="col-2 btn-group-vertical">
+            <button class="btn btn-secondary" type="button">
+              SAT
+              <hr />
+              🌧<br />
+              3º/-1º
+            </button>
+          </div>
+          <div class="col-2 btn-group-vertical">
+            <button class="btn btn-secondary" type="button">
+              SUN
+              <hr />
+              🌤<br />4º/1º
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

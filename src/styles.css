@@ -1,0 +1,130 @@
+.container {
+  width: 700px;
+  height: 800px;
+}
+body {
+  min-height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+}
+h2 {
+  font-size: 11px;
+  text-align: center;
+}
+.fa-map-marker-alt {
+  color: red;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.fa-redo-alt {
+  color: blue;
+}
+
+.weather-icon {
+  float: left;
+  height: 64px;
+  width: 64px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.weather-app {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background: url("images/plane.gif") no-repeat;
+  background-size: cover;
+}
+.temperature {
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1;
+  text-align: center;
+}
+.units-c {
+  position: relative;
+  top: -34px;
+  text-align: center;
+}
+.break {
+  color: #ffffff;
+  position: relative;
+  top: -34px;
+  text-align: center;
+}
+.units-f {
+  position: relative;
+  top: -34px;
+  text-align: center;
+}
+
+.border-0 {
+  margin: 20px;
+}
+
+#left-wing {
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  height: 19px;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+#right-wing {
+  text-align: left;
+  font-weight: 600;
+  color: white;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0px;
+  margin-top: 40px;
+}
+
+#temp-dates {
+  margin: auto 0;
+}
+#city-input:valid {
+  text-transform: uppercase;
+}
+#city {
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+#date {
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 75px;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#tempurature {
+  text-align: center;
+  font-size: 30px;
+}
+.fa-cloud-sun {
+  color: #ffffff;
+  text-align: left;
+  font-size: 150px;
+  padding-right: 0px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(186, 208, 239);
+  margin-bottom: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+}
