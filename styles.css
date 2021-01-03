@@ -41,7 +41,7 @@ h2 {
   padding: 15px;
   margin: 10px;
   border-radius: 10px;
-  background: url("images/plane.gif") no-repeat;
+  background: url("plane.gif") no-repeat;
   background-size: cover;
 }
 .temperature {
