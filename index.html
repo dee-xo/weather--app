@@ -23,7 +23,7 @@
     <title>Weather App</title>
   </head>
   <body>
-      <a href="https://www.netlify.com"></a>
+    <a href="https://www.netlify.com"></a>
     <div class="container">
       <div class="weather-app">
         <form class="search-form" id="search-form">
@@ -61,32 +61,25 @@
         </span>
 
         <div class="row">
-          <div class="col-12" id="date">
-            Enter City and/or Press "Search"</i>
-          </div>
+          <div class="col-12" id="date">Enter City and/or Press "Search"</div>
+          <div id="description"></div>
         </div>
         <div class="row">
-          <div class="col-3"><i class="fas fa-cloud-sun"></i></div>
-          <div class="col-3">
-            <span class="temperature" id="temperature"></span>
-            <span class="units-c">
-              <a href="#" id="celsius-link">℃</a>
-            </span>
-            <span class="break">|</span>
-            <span class="units-f"><a href="#" id="fahrenheit-link">℉</a> </span>
+          <div class="col-6">
+            <div><span id="temperature"></span></div>
           </div>
-          <div class="col-4">
-            <ul id="left-wing">
-              <li>Description:</li>
-              <li>Humidity %:</li>
-              <li>Wind km/h:</li>
-            </ul>
-          </div>
-          <div class="col-2">
+          <div class="col-6">
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              width="150"
+              height="150"
+              alt="Clear"
+              id="icon"
+            />
             <ul id="right-wing">
-              <li id="description"></li>
-              <li id="humidity"></li>
-              <li id="wind"></li>
+              <li>Feels like: <span id="feels-like"></span>℃</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
             </ul>
           </div>
         </div>
@@ -137,7 +130,10 @@
           </div>
         </div>
       </div>
-      <a href="https://github.com/dee-xo/weather--app" target="_blank">Open-source code</a> by Dwayna
+      <a href="https://github.com/dee-xo/weather--app" target="_blank"
+        >Open-source code</a
+      >
+      by Dwayna
     </div>
     <script src="index.js"></script>
   </body>

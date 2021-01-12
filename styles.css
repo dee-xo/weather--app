@@ -1,6 +1,5 @@
 .container {
   width: 700px;
-  height: 800px;
 }
 body {
   min-height: 100%;
@@ -28,59 +27,23 @@ h2 {
   color: blue;
 }
 
-.weather-icon {
-  float: left;
-  height: 64px;
-  width: 64px;
-  margin: 10px;
-  padding: 10px;
-  margin-top: 0;
-}
-
 .weather-app {
   padding: 15px;
-  margin: 10px;
+  margin: 0px;
   border-radius: 10px;
   background: url("plane.gif");
   background-size: cover;
-  max-width: 600px;
 }
-.temperature {
-  color: #ffffff;
-  font-size: 64px;
-  line-height: 1;
-  text-align: center;
-}
-.units-c {
-  position: relative;
-  top: -34px;
-  text-align: center;
-}
-.break {
+#temperature {
   color: #ffffff;
   position: relative;
-  top: -34px;
-  text-align: center;
-}
-.units-f {
-  position: relative;
-  top: -34px;
-  text-align: center;
+  left: 125px;
+  font-weight: 600;
+  font-size: 125px;
 }
 
 .border-0 {
   margin: 20px;
-}
-
-#left-wing {
-  text-align: right;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  height: 19px;
-  list-style: none;
-  text-transform: uppercase;
-  margin-top: 40px;
 }
 
 #right-wing {
@@ -89,13 +52,12 @@ h2 {
   color: white;
   list-style: none;
   text-transform: uppercase;
-  padding: 0px;
-  margin-top: 40px;
 }
 
 #temp-dates {
   margin: auto 0;
 }
+
 #city-input:valid {
   text-transform: uppercase;
 }
@@ -119,15 +81,18 @@ h2 {
     1px 0 0 #5c636a 1px 1px 0 #5c636a, 0 1px 0 #5c636a, -1px 1px 0 #5c636a,
     -1px 0 0 #5c636a;
 }
-#tempurature {
+#description {
+  text-transform: uppercase;
+  font-size: 20px;
   text-align: center;
-  font-size: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-shadow: -1px -1px 0 #5c636a, 0 -1px 0 #5c636a, 1px -1px 0 #5c636a,
+    1px 0 0 #5c636a 1px 1px 0 #5c636a, 0 1px 0 #5c636a, -1px 1px 0 #5c636a,
+    -1px 0 0 #5c636a;
 }
-.fa-cloud-sun {
-  color: #ffffff;
-  text-align: left;
-  font-size: 150px;
-  padding-right: 0px;
+
+img {
 }
 
 footer {
