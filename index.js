@@ -24,7 +24,7 @@ function formatDate(date) {
 }
 
 function displayWeatherCondition(response) {
-  console.log(response.data);
+  console.log(response);
   let iconElement = document.querySelector("#icon");
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -87,10 +87,8 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
-let celsiusTemperature = null;
-
-
 let dateElement = document.querySelector("#date");
+
 let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
 
@@ -100,10 +98,12 @@ searchForm.addEventListener("submit", handleSubmit);
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+let celsiusTemperature = null;
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 searchCity("Toronto");

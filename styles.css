@@ -31,7 +31,7 @@ h2 {
   padding: 15px;
   margin: 0px;
   border-radius: 10px;
-  background: url("plane.gif");
+  background: url("plane.jpg");
   background-size: cover;
 }
 #temperature {
@@ -40,6 +40,7 @@ h2 {
   left: 125px;
   font-weight: 600;
   font-size: 125px;
+  text-shadow: -1px -1px 0 #2d372f;
 }
 
 .active {
@@ -69,10 +70,12 @@ h2 {
   color: white;
   list-style: none;
   text-transform: uppercase;
+  text-shadow: -1px -1px 0 #2d372f;
 }
 
 #temp-dates {
   margin: auto 0;
+  text-shadow: -1px -1px 0 #2d372f;
 }
 
 #city-input:valid {
@@ -81,32 +84,29 @@ h2 {
 #city {
   text-transform: uppercase;
   font-size: xx-large;
-  color: white;
-  text-shadow: -1px -1px 0 #5c636a, 0 -1px 0 #5c636a, 1px -1px 0 #5c636a,
-    1px 0 0 #5c636a 1px 1px 0 #5c636a, 0 1px 0 #5c636a, -1px 1px 0 #5c636a,
-    -1px 0 0 #5c636a;
+  color: #5c636a;
+  text-shadow: -1px -1px 0 #2d372f;
 }
 #date {
   font-weight: 600;
-  margin-top: 75px;
+  margin: 0;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 65px;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  color: white;
-  text-shadow: -1px -1px 0 #5c636a, 0 -1px 0 #5c636a, 1px -1px 0 #5c636a,
-    1px 0 0 #5c636a 1px 1px 0 #5c636a, 0 1px 0 #5c636a, -1px 1px 0 #5c636a,
-    -1px 0 0 #5c636a;
+  color: rgb(45, 55, 47);
+  text-shadow: -1px -1px 0 #2d372f;
 }
 #description {
   text-transform: uppercase;
   font-size: 20px;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  color: white;
-  text-shadow: -1px -1px 0 #5c636a, 0 -1px 0 #5c636a, 1px -1px 0 #5c636a,
-    1px 0 0 #5c636a 1px 1px 0 #5c636a, 0 1px 0 #5c636a, -1px 1px 0 #5c636a,
-    -1px 0 0 #5c636a;
+  color: #ffffff;
+  text-shadow: -2px -1px 0 #2d372f;
+}
+.btn-secondary {
+  text-shadow: -2px -1px 0 #2d372f;
 }
 
 footer {
