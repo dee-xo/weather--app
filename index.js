@@ -43,8 +43,10 @@ function displayWeatherCondition(response) {
 
   iconElement.setAttribute("src",`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);  
 
-  celciusTemperature = response.data.main.temp;
+  celsiusTemperature = response.data.main.temp;
 }
+
+temperatureElement.innerHTML = Math.round(celsiusTemperature);
 
 function searchCity(city) {
   let apiKey = "f37c9ae6d4f383a5c710381821c1b245";
