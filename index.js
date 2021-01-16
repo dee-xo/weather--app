@@ -46,8 +46,6 @@ function displayWeatherCondition(response) {
   celsiusTemperature = response.data.main.temp;
 }
 
-temperatureElement.innerHTML = Math.round(celsiusTemperature);
-
 function searchCity(city) {
   let apiKey = "f37c9ae6d4f383a5c710381821c1b245";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
