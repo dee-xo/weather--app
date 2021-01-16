@@ -108,6 +108,9 @@ h2 {
 .btn-secondary {
   text-shadow: -2px -1px 0 #2d372f;
 }
+#forecast {
+  color: #ffffff;
+}
 
 footer {
   text-align: center;
