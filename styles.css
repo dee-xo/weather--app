@@ -1,5 +1,5 @@
 .container {
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100%;
   height: auto;
 }
@@ -35,7 +35,7 @@ h2 {
   padding: 15px;
   margin: 0px;
   border-radius: 10px;
-  background: url("images/sunset.gif") no-repeat;
+  background: url("images/sunrise.gif") no-repeat;
   background-size: cover;
   max-width: 100%;
   height: auto;
