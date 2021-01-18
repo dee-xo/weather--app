@@ -5,6 +5,8 @@
 body {
   min-height: 100%;
   font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: auto;
 }
 h1 {
   color: #ffffff;
