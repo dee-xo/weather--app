@@ -76,6 +76,14 @@ h2 {
 #city-input:valid {
   text-transform: uppercase;
 }
+#right-wing {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  list-style: none;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #2d372f;
+}
 #city {
   text-transform: uppercase;
   font-size: xx-large;
