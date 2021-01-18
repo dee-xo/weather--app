@@ -49,8 +49,8 @@ h2 {
   font-size: 125px;
   text-shadow: -1px -1px 0 #2d372f;
   width: 100%;
-  height: auto;
-  text-align: center;
+  height: 100%;
+  display: block;
 }
 .active {
   color: rgb(33, 33, 33);
