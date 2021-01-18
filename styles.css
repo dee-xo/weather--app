@@ -68,14 +68,7 @@ h2 {
 .border-0 {
   margin: 20px;
 }
-#right-wing {
-  text-align: left;
-  font-weight: 600;
-  color: white;
-  list-style: none;
-  text-transform: uppercase;
-  text-shadow: -1px -1px 0 #2d372f;
-}
+
 #temp-dates {
   margin: auto 0;
   text-shadow: -1px -1px 0 #2d372f;
