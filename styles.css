@@ -1,5 +1,5 @@
 .container {
-  width: 700px;
+  width: 100%;
 }
 body {
   min-height: 100%;
@@ -31,7 +31,7 @@ h2 {
   padding: 15px;
   margin: 0px;
   border-radius: 10px;
-  background: url("images/sunset.gif") no-repeat;
+  background: url("images/sunset.gif") no-repeat 100%;
   background-size: cover;
 }
 
