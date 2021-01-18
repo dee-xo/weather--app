@@ -98,6 +98,7 @@ h2 {
   font-family: Helvetica, Arial, sans-serif;
   color: #ffffff;
   text-shadow: -1px -1px 0 #2d372f;
+  text-align: center;
 }
 #description {
   text-transform: uppercase;
