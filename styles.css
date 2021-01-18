@@ -40,16 +40,12 @@ h2 {
   max-width: 100%;
   height: auto;
 }
-
 #temperature {
   color: #ffffff;
-  position: relative;
-  left: 125px;
   font-weight: 600;
-  font-size: 125px;
+  font-size: 100px;
   text-shadow: -1px -1px 0 #2d372f;
-  width: 100%;
-  height: 100%;
+  text-align: center;
   display: block;
   margin: auto 0;
 }
@@ -63,10 +59,10 @@ h2 {
   text-decoration: none;
 }
 .units {
-  position: relative;
-  left: 125px;
-  bottom: 70px;
   text-decoration: none;
+  display: block;
+  margin: auto 0;
+  text-align: center;
 }
 .border-0 {
   margin: 20px;
@@ -86,6 +82,8 @@ h2 {
   list-style: none;
   text-transform: uppercase;
   text-shadow: -1px -1px 0 #2d372f;
+  position: relative;
+  top: -40px;
 }
 #city {
   text-transform: uppercase;
@@ -113,6 +111,8 @@ h2 {
   text-shadow: -2px -1px 0 #2d372f;
 }
 #icon {
+  position: relative;
+  top: -40px;
   margin: 0 auto;
   text-align: center;
   display: block;
