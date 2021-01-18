@@ -82,8 +82,6 @@ h2 {
   list-style: none;
   text-transform: uppercase;
   text-shadow: -1px -1px 0 #2d372f;
-  position: relative;
-  top: -40px;
 }
 #city {
   text-transform: uppercase;
@@ -111,8 +109,6 @@ h2 {
   text-shadow: -2px -1px 0 #2d372f;
 }
 #icon {
-  position: relative;
-  top: -40px;
   margin: 0 auto;
   text-align: center;
   display: block;
